@@ -1,0 +1,443 @@
+{
+    "Chennai": {
+        "Tiruvottiyur": {
+            "Thiruvottiyur High Road": {
+                "no_parking_on_main_road_speed_limit_40_kmh_no_uturn": {
+                    "description": "No parking on main road; Speed limit 40 km/h; No U-turn",
+                    "fine": 1000
+                }
+            },
+            "VOC Nagar Main Road": {
+                "yield_to_pedestrians_no_horn_in_school_zone": {
+                    "description": "Yield to pedestrians; No horn in school zone",
+                    "fine": 500
+                }
+            }
+        },
+        "Manali": {
+            "Manali New Town Road": {
+                "overloaded_vehicles_prohibited_speed_limit_30_kmh": {
+                    "description": "Overloaded vehicles prohibited; Speed limit 30 km/h",
+                    "fine": 2000
+                }
+            },
+            "Ambedkar Street": {
+                "no_parking_near_junction_helmet_mandatory": {
+                    "description": "No parking near junction; Helmet mandatory",
+                    "fine": 500
+                }
+            }
+        },
+        "Madhavaram": {
+            "Madhavaram High Road": {
+                "speed_limit_50_kmh_no_triple_riding": {
+                    "description": "Speed limit 50 km/h; No triple riding",
+                    "fine": 1000
+                }
+            },
+            "Redhills Road": {
+                "no_overtaking_near_school_speed_limit_40_kmh": {
+                    "description": "No overtaking near school; Speed limit 40 km/h",
+                    "fine": 1000
+                }
+            }
+        },
+        "Perambur": {
+            "Perambur Barracks Road": {
+                "no_parking_8am10pm_speed_limit_40_kmh": {
+                    "description": "No parking 8am\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u015310pm; Speed limit 40 km/h",
+                    "fine": 500
+                }
+            },
+            "Tiruvottiyur\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153Ponneri\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153Panjetty Road": {
+                "no_stopping_on_flyover_lane_discipline_mandatory": {
+                    "description": "No stopping on flyover; Lane discipline mandatory",
+                    "fine": 1500
+                }
+            }
+        },
+        "Kolathur": {
+            "Kolathur Main Road": {
+                "no_horn_zone_near_hospital_speed_limit_40_kmh": {
+                    "description": "No horn zone near hospital; Speed limit 40 km/h",
+                    "fine": 1000
+                }
+            },
+            "Jawaharlal Nehru Salai": {
+                "signal_jump_prohibited_no_uturn_at_median": {
+                    "description": "Signal jump prohibited; No U-turn at median",
+                    "fine": 2000
+                }
+            }
+        },
+        "Villivakkam": {
+            "Villivakkam Main Road": {
+                "helmet_mandatory_no_parking_near_signal": {
+                    "description": "Helmet mandatory; No parking near signal",
+                    "fine": 500
+                }
+            },
+            "Pattabiram Road": {
+                "speed_limit_50_kmh_no_overtaking_on_curve": {
+                    "description": "Speed limit 50 km/h; No overtaking on curve",
+                    "fine": 1000
+                }
+            }
+        },
+        "T. Nagar": {
+            "Usman Road": {
+                "no_parking_9am9pm_speed_limit_30_kmh_no_hawkers_on_road": {
+                    "description": "No parking 9am\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u01539pm; Speed limit 30 km/h; No hawkers on road",
+                    "fine": 1000
+                }
+            },
+            "Thyagaraya Road": {
+                "oneway_traffic_enforced_no_entry_for_heavy_vehicles": {
+                    "description": "One-way traffic enforced; No entry for heavy vehicles",
+                    "fine": 1500
+                }
+            }
+        },
+        "Adyar": {
+            "Sardar Patel Road": {
+                "speed_limit_50_kmh_no_parking_near_signal": {
+                    "description": "Speed limit 50 km/h; No parking near signal",
+                    "fine": 1000
+                }
+            },
+            "LB Road (Lattice Bridge Road)": {
+                "no_uturn_near_bridge_pedestrian_crossing_mandatory": {
+                    "description": "No U-turn near bridge; Pedestrian crossing mandatory",
+                    "fine": 1000
+                }
+            }
+        },
+        "Velachery": {
+            "Velachery Main Road": {
+                "speed_limit_40_kmh_no_triple_riding_signal_compliance": {
+                    "description": "Speed limit 40 km/h; No triple riding; Signal compliance",
+                    "fine": 2000
+                }
+            },
+            "100 Feet Road Velachery": {
+                "lane_discipline_no_illegal_parking": {
+                    "description": "Lane discipline; No illegal parking",
+                    "fine": 1000
+                }
+            }
+        },
+        "Sholinganallur": {
+            "Old Mahabalipuram Road (OMR)": {
+                "speed_limit_60_kmh_no_pedestrian_crossing_midroad": {
+                    "description": "Speed limit 60 km/h; No pedestrian crossing mid-road",
+                    "fine": 2000
+                }
+            },
+            "Perungudi\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153Sholinganallur Road": {
+                "no_uturn_speed_limit_50_kmh": {
+                    "description": "No U-turn; Speed limit 50 km/h",
+                    "fine": 1000
+                }
+            }
+        },
+        "Ambattur": {
+            "Ambattur Industrial Estate Road": {
+                "no_overspeeding_max_speed_30_kmh_in_estate_no_overloading": {
+                    "description": "No overspeeding; Max speed 30 km/h in estate; No overloading",
+                    "fine": 2000
+                }
+            },
+            "Padi\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153Ambattur Road": {
+                "helmet_mandatory_no_wrongside_driving": {
+                    "description": "Helmet mandatory; No wrong-side driving",
+                    "fine": 1500
+                }
+            }
+        },
+        "Avadi": {
+            "Avadi\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u0153Poonamallee Road": {
+                "speed_limit_50_kmh_no_parking_near_railway_crossing": {
+                    "description": "Speed limit 50 km/h; No parking near railway crossing",
+                    "fine": 1000
+                }
+            },
+            "Minjur Road": {
+                "school_zone_speed_limit_25_kmh_no_honking": {
+                    "description": "School zone speed limit 25 km/h; No honking",
+                    "fine": 500
+                }
+            }
+        },
+        "Poonamallee": {
+            "Poonamallee High Road (NH-48)": {
+                "speed_limit_80_kmh_no_stopping_on_highway_seatbelt_mandatory": {
+                    "description": "Speed limit 80 km/h; No stopping on highway; Seatbelt mandatory",
+                    "fine": 2000
+                }
+            },
+            "Senneerkuppam Road": {
+                "no_parking_near_junction_helmet_mandatory": {
+                    "description": "No parking near junction; Helmet mandatory",
+                    "fine": 500
+                }
+            }
+        },
+        "Anna Nagar": {
+            "Anna Nagar 2nd Avenue": {
+                "no_parking_during_peak_hours_speed_limit_40_kmh": {
+                    "description": "No parking during peak hours; Speed limit 40 km/h",
+                    "fine": 1000
+                }
+            },
+            "Shanthi Colony Main Road": {
+                "speed_limit_30_kmh_no_honking_in_residential_zone": {
+                    "description": "Speed limit 30 km/h; No honking in residential zone",
+                    "fine": 500
+                }
+            }
+        },
+        "Kilpauk": {
+            "Poonamallee High Road (Kilpauk stretch)": {
+                "no_uturn_signal_compliance_mandatory": {
+                    "description": "No U-turn; Signal compliance mandatory",
+                    "fine": 1500
+                }
+            },
+            "Sterling Road": {
+                "speed_limit_40_kmh_pedestrian_right_of_way": {
+                    "description": "Speed limit 40 km/h; Pedestrian right of way",
+                    "fine": 1000
+                }
+            }
+        },
+        "Egmore": {
+            "Egmore High Road": {
+                "no_parking_near_hospital_speed_limit_30_kmh": {
+                    "description": "No parking near hospital; Speed limit 30 km/h",
+                    "fine": 1000
+                }
+            },
+            "Pantheon Road": {
+                "oneway_strictly_enforced_no_entry_heavy_vehicles_after_10am": {
+                    "description": "One-way strictly enforced; No entry heavy vehicles after 10am",
+                    "fine": 1500
+                }
+            }
+        },
+        "Park Town": {
+            "Anna Salai (Mount Road)": {
+                "no_jaywalking_signal_compliance_speed_limit_50_kmh": {
+                    "description": "No jaywalking; Signal compliance; Speed limit 50 km/h",
+                    "fine": 2000
+                }
+            },
+            "Rajaji Salai": {
+                "no_parking_heavy_vehicles_restricted_timings": {
+                    "description": "No parking; Heavy vehicles restricted timings",
+                    "fine": 2000
+                }
+            }
+        },
+        "Mylapore": {
+            "Luz Church Road": {
+                "no_triple_riding_speed_limit_30_kmh": {
+                    "description": "No triple riding; Speed limit 30 km/h",
+                    "fine": 500
+                }
+            },
+            "R.K. Mutt Road": {
+                "no_parking_near_temple_pedestrian_crossing_enforced": {
+                    "description": "No parking near temple; Pedestrian crossing enforced",
+                    "fine": 1000
+                }
+            }
+        },
+        "Nungambakkam": {
+            "Nungambakkam High Road": {
+                "no_illegal_parking_no_honking_near_schools": {
+                    "description": "No illegal parking; No honking near schools",
+                    "fine": 1000
+                }
+            },
+            "Khader Nawaz Khan Road": {
+                "speed_limit_40_kmh_no_vehicle_on_footpath": {
+                    "description": "Speed limit 40 km/h; No vehicle on footpath",
+                    "fine": 1000
+                }
+            }
+        }
+    },
+    "Coimbatore": {
+        "Gandhipuram": {
+            "Dr. Nanjappa Road": {
+                "no_parking_in_nondesignated_zones": {
+                    "description": "No Parking in Non-Designated Zones",
+                    "fine": 500
+                }
+            }
+        },
+        "RS Puram": {
+            "DB Road": {
+                "oneway_traffic_only": {
+                    "description": "One-Way Traffic Only",
+                    "fine": 500
+                }
+            }
+        },
+        "Peelamedu": {
+            "Avinashi Road": {
+                "no_overtaking_on_flyovers": {
+                    "description": "No Overtaking on Flyovers",
+                    "fine": 1000
+                }
+            }
+        },
+        "Town Hall": {
+            "Oppanakara Street": {
+                "no_entry_for_heavy_vehicles_8_am__8_pm": {
+                    "description": "No Entry for Heavy Vehicles (8 AM - 8 PM)",
+                    "fine": 2000
+                }
+            }
+        },
+        "Ukkadam": {
+            "Pollachi Road": {
+                "mandatory_helmet_for_twowheelers": {
+                    "description": "Mandatory Helmet for Two-Wheelers",
+                    "fine": 1000
+                }
+            }
+        },
+        "Saravanampatti": {
+            "Sathy Road": {
+                "speed_limit_40_kmh": {
+                    "description": "Speed Limit 40 km/h",
+                    "fine": 1000
+                }
+            }
+        },
+        "Race Course": {
+            "Race Course Road": {
+                "no_horn_zone": {
+                    "description": "No Horn Zone",
+                    "fine": 500
+                }
+            }
+        },
+        "Thudiyalur": {
+            "Mettupalayam Road": {
+                "lane_discipline_stay_left": {
+                    "description": "Lane Discipline (Stay Left)",
+                    "fine": 500
+                }
+            }
+        },
+        "Singanallur": {
+            "Trichy Road": {
+                "bus_lane_priority": {
+                    "description": "Bus Lane Priority",
+                    "fine": 1000
+                }
+            }
+        },
+        "Podanur": {
+            "Podanur Main Road": {
+                "valid_driving_license_required": {
+                    "description": "Valid Driving License Required",
+                    "fine": 5000
+                }
+            }
+        },
+        "Kovaipudur": {
+            "Kovaipudur Road": {
+                "seatbelt_mandatory": {
+                    "description": "Seatbelt Mandatory",
+                    "fine": 1000
+                }
+            }
+        },
+        "Vadavalli": {
+            "Maruthamalai Road": {
+                "stop_at_red_signal": {
+                    "description": "Stop at Red Signal",
+                    "fine": {
+                        "min": 500,
+                        "max": 1000
+                    }
+                }
+            }
+        }
+    },
+    "Madurai": {
+        "Madurai City": {
+            "Kamarajar Salai": {
+                "no_parking_in_commercial_zones": {
+                    "description": "No Parking in Commercial Zones",
+                    "fine": 500
+                }
+            },
+            "Alagar Kovil Road": {
+                "mandatory_helmet_for_rider_and_pillion": {
+                    "description": "Mandatory Helmet for Rider and Pillion",
+                    "fine": 1000
+                }
+            },
+            "Bypass Road": {
+                "strict_adherence_to_red_signals": {
+                    "description": "Strict Adherence to Red Signals",
+                    "fine": 1000
+                }
+            },
+            "West Masi Street": {
+                "no_triple_riding_on_twowheelers": {
+                    "description": "No Triple Riding on Two-Wheelers",
+                    "fine": 1000
+                }
+            },
+            "New Natham Road": {
+                "mandatory_seat_belt_for_cars": {
+                    "description": "Mandatory Seat Belt for Cars",
+                    "fine": 1000
+                }
+            },
+            "Goripalayam Junction": {
+                "no_rash_and_negligent_driving": {
+                    "description": "No Rash and Negligent Driving",
+                    "fine": 5000
+                }
+            }
+        },
+        "Melur": {
+            "Melur Highway": {
+                "speed_limit_strictly_enforced": {
+                    "description": "Speed Limit Strictly Enforced",
+                    "fine": 2000
+                }
+            }
+        },
+        "Thirumangalam": {
+            "Kappalur Toll Road": {
+                "valid_driving_license_required": {
+                    "description": "Valid Driving License Required",
+                    "fine": 5000
+                }
+            }
+        },
+        "Usilampatti": {
+            "Theni Main Road": {
+                "zero_tolerance_for_drunk_driving": {
+                    "description": "Zero Tolerance for Drunk Driving",
+                    "fine": 10000
+                }
+            }
+        },
+        "Vadipatti": {
+            "Dindigul Highway": {
+                "no_mobile_phone_usage_while_driving": {
+                    "description": "No Mobile Phone Usage While Driving",
+                    "fine": 1000
+                }
+            }
+        }
+    }
+}

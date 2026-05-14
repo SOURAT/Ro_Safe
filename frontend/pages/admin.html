@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN PANEL</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+<header>
+    <h1>ADMIN PANEL</h1>
+    <div class="nav">
+        <a href="index.html" class="Logout" id="logoutBtn">Logout</a>
+    </div>
+</header>
+
+<div class="container">
+
+    
+    <div class="box" id="fine">
+        <form id="fineForm">
+            <label>Vehicle Type</label>
+            <select id="vehicle_type" required>
+                <option value="">Select a vehicle Type</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Petrol">Petrol</option>
+                <option value="CNG">CNG</option>
+                <option value="Electric">Electric</option>
+            </select>
+
+            <label>Violation</label>
+            <select id="violation" required>
+                <option value="">Select a violation</option>
+                <option value="Speeding">Speeding</option>
+                <option value="Running Red Light">Running Red Light</option>
+                <option value="Drink and Driving">Drink and Driving</option>
+                <option value="Improper Parking">Improper Parking</option>
+                <option value="Traffic Violation">Traffic Violation</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label>State</label>
+            <select id="state" required>
+                <option value="">Select a state</option>
+                <option value="West Bengal">West Bengal</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+            </select>
+
+            <label>Vehicle Number</label>
+            <input type="text" id="vehicle_number" placeholder="Vehicle Number" required>
+
+            <p id="fineError" style="color:red; font-size:13px;"></p>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        
+        <div id="fineResult" style="display:none;">
+            <h3>Fine Calculated</h3>
+            <p id="resultVehicle"></p>
+            <p id="resultViolation"></p>
+            <p id="resultFine"></p>
+            <p id="resultRepeated"></p>
+            <button id="downloadBtn">Download Receipt</button>
+        </div>
+    </div>
+
+
+    <div class="box" id="history">
+        <label>Violation History:</label>
+        <input type="text" id="hist" placeholder="Enter Vehicle Number">
+        <button type="button" id="searchBtn">Search</button>
+        <p id="histError" style="color:red; font-size:13px;"></p>
+        <div class="display" id="historyDisplay"></div>
+    </div>
+
+</div>
+
+<script src="../js/api.js"></script>
+<script src="../js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+{
+    "Central Delhi": {
+        "Daryaganj": {
+            "Netaji Subhash Marg": {
+                "no_parking_in_nondesignated_zones": {
+                    "description": "No Parking in Non-Designated Zones",
+                    "fine": {
+                        "min": 500,
+                        "max": 1000
+                    }
+                }
+            }
+        },
+        "Karol Bagh": {
+            "Ajmal Khan Road": {
+                "no_entry_for_commercial_vehicles_day": {
+                    "description": "No Entry for Commercial Vehicles (Day)",
+                    "fine": {
+                        "min": 2000,
+                        "max": 5000
+                    }
+                }
+            }
+        },
+        "Pahar Ganj": {
+            "Desh Bandhu Gupta Road": {
+                "helmetseatbelt_compulsory": {
+                    "description": "Helmet/Seatbelt Compulsory",
+                    "fine": 1000
+                }
+            }
+        }
+    },
+    "East Delhi": {
+        "Preet Vihar": {
+            "Vikas Marg": {
+                "speed_limit_compliance_50kmh": {
+                    "description": "Speed Limit Compliance (50km/h)",
+                    "fine": 2000
+                }
+            }
+        },
+        "Mayur Vihar": {
+            "Noida Link Road": {
+                "lane_driving_only": {
+                    "description": "Lane Driving Only",
+                    "fine": {
+                        "min": 500,
+                        "max": 1000
+                    }
+                }
+            }
+        }
+    },
+    "New Delhi": {
+        "Connaught Place": {
+            "Radial Road": {
+                "strict_no_parking__oneway_zones": {
+                    "description": "Strict No Parking / One-Way Zones",
+                    "fine": 500
+                }
+            }
+        },
+        "Chanakyapuri": {
+            "Shanti Path": {
+                "no_stopping__high_security_zone": {
+                    "description": "No Stopping / High Security Zone",
+                    "fine": 500
+                }
+            }
+        },
+        "Vasant Vihar": {
+            "Outer Ring Road": {
+                "dangerous_driving__red_light_jumping": {
+                    "description": "Dangerous Driving / Red Light Jumping",
+                    "fine": {
+                        "min": 1000,
+                        "max": 5000
+                    }
+                }
+            }
+        }
+    },
+    "North Delhi": {
+        "Civil Lines": {
+            "Alipur Road": {
+                "valid_puc_pollution_certificate": {
+                    "description": "Valid PUC (Pollution Certificate)",
+                    "fine": 10000
+                }
+            }
+        }
+    },
+    "North West Delhi": {
+        "Rohini": {
+            "Outer Ring Road": {
+                "driving_without_license": {
+                    "description": "Driving Without License",
+                    "fine": 5000
+                }
+            }
+        }
+    },
+    "South Delhi": {
+        "Saket": {
+            "Press Enclave Marg": {
+                "drink_and_drive_prohibition": {
+                    "description": "Drink and Drive Prohibition",
+                    "fine": 10000
+                }
+            }
+        },
+        "Hauz Khas": {
+            "Aurobindo Marg": {
+                "using_mobile_phone_while_driving": {
+                    "description": "Using Mobile Phone while Driving",
+                    "fine": {
+                        "min": 1000,
+                        "max": 5000
+                    }
+                }
+            }
+        }
+    },
+    "South East Delhi": {
+        "Lajpat Nagar": {
+            "Ring Road": {
+                "triple_riding_twowheelers": {
+                    "description": "Triple Riding (Two-wheelers)",
+                    "fine": 1000
+                }
+            }
+        }
+    },
+    "South West Delhi": {
+        "Dwarka": {
+            "Sector 22 Road": {
+                "obstructing_emergency_vehicles_ambulance": {
+                    "description": "Obstructing Emergency Vehicles (Ambulance)",
+                    "fine": 10000
+                }
+            }
+        }
+    },
+    "West Delhi": {
+        "Janakpuri": {
+            "Pankha Road": {
+                "juvenile_driving_offence": {
+                    "description": "Juvenile Driving Offence",
+                    "fine": 25000
+                }
+            }
+        }
+    }
+}

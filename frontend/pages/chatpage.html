@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveBot</title>
+    <link rel="stylesheet" href="../css/chatpage.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Drive Legal</div>
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    <ul id="nav-links">
+        <li><a href="RulesPage.html">Rules & Regulations</a></li>
+        <li><a href="EmergencyContact.html">Emergency Contact</a></li>
+        <li><a href="ViewFines.html">View my Fines</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="#" id="logoutBtn">log out</a></li>
+    </ul>
+</nav>
+
+<div class="chat-container">
+    <div class="chat-header">
+        <h2>🤖 DriveBot</h2>
+        <p>Ask me anything about traffic rules and violations!</p>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+        
+        <div class="message bot-message">
+            <p>Hi! I'm DriveBot 👋 Ask me about traffic rules, fines, or road safety!</p>
+        </div>
+    </div>
+
+    <div class="chat-input-area">
+        <p id="errormsg" style="color:red; font-size:12px;"></p>
+        <div class="input-row">
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Ask about traffic rules..." 
+                autocomplete="off"
+            >
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+</div>
+
+<script src="../js/chatbot.js"></script>
+</body>
+</html>

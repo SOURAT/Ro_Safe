@@ -1,0 +1,550 @@
+{
+    "Hooghly": {
+        "Chinsurah": {
+            "G.T. Road": {
+                "driving_above_the_prescribed_speed_limit": {
+                    "description": "Driving above the prescribed speed limit",
+                    "fine": 2000
+                }
+            },
+            "Court Road": {
+                "driving_under_influence_of_alcoholdrugs": {
+                    "description": "Driving under influence of alcohol/drugs",
+                    "fine": 10000
+                }
+            },
+            "Akhan Bazar Road": {
+                "riding_twowheeler_without_protective_headgear": {
+                    "description": "Riding two-wheeler without protective headgear",
+                    "fine": 1000
+                }
+            }
+        },
+        "Chandannagar": {
+            "Strand Road": {
+                "jumping_traffic_signals": {
+                    "description": "Jumping traffic signals",
+                    "fine": 500
+                }
+            },
+            "Boro Bazar Road": {
+                "driving_fourwheeler_without_seat_belt": {
+                    "description": "Driving four-wheeler without seat belt",
+                    "fine": 1000
+                }
+            },
+            "Laxmigunj Road": {
+                "using_mobile_phone_while_driving": {
+                    "description": "Using mobile phone while driving",
+                    "fine": 5000
+                }
+            }
+        },
+        "Serampore": {
+            "G.T. Road (Serampore)": {
+                "driving_against_the_flow_of_traffic": {
+                    "description": "Driving against the flow of traffic",
+                    "fine": 5000
+                }
+            },
+            "Kutchery Road": {
+                "parking_in_a_restrictednoparking_zone": {
+                    "description": "Parking in a restricted/no-parking zone",
+                    "fine": 500
+                }
+            },
+            "Mahesh Road": {
+                "more_than_two_persons_on_a_twowheeler": {
+                    "description": "More than two persons on a two-wheeler",
+                    "fine": 1000
+                }
+            }
+        },
+        "Uttarpara": {
+            "Old G.T. Road": {
+                "driving_without_valid_vehicle_insurance": {
+                    "description": "Driving without valid vehicle insurance",
+                    "fine": 2000
+                }
+            },
+            "Station Road": {
+                "driving_without_a_valid_driving_license": {
+                    "description": "Driving without a valid driving license",
+                    "fine": 5000
+                }
+            },
+            "T.N. Mukherjee Road": {
+                "driving_without_valid_pollution_under_control_certificate": {
+                    "description": "Driving without valid Pollution Under Control certificate",
+                    "fine": 10000
+                }
+            }
+        },
+        "Bandel": {
+            "Bandel Station Road": {
+                "carrying_load_beyond_permissible_limit": {
+                    "description": "Carrying load beyond permissible limit",
+                    "fine": 20000
+                }
+            },
+            "Hooghly Ghat Road": {
+                "reckless_driving_endangering_public_safety": {
+                    "description": "Reckless driving endangering public safety",
+                    "fine": 5000
+                }
+            },
+            "Mogra Road": {
+                "allowing_a_minor_to_drive_the_vehicle": {
+                    "description": "Allowing a minor to drive the vehicle",
+                    "fine": 25000
+                }
+            }
+        },
+        "Arambagh": {
+            "Link Road": {
+                "using_nonstandard_or_illegal_number_plates": {
+                    "description": "Using non-standard or illegal number plates",
+                    "fine": 500
+                }
+            },
+            "Hospital Road": {
+                "causing_obstruction_to_free_flow_of_traffic": {
+                    "description": "Causing obstruction to free flow of traffic",
+                    "fine": 500
+                }
+            },
+            "Pallishree Road": {
+                "using_high_beam_in_restricted_city_areas": {
+                    "description": "Using high beam in restricted city areas",
+                    "fine": 500
+                }
+            }
+        },
+        "Tarkeshwar": {
+            "Temple Road": {
+                "unauthorized_structural_modification_of_vehicle": {
+                    "description": "Unauthorized structural modification of vehicle",
+                    "fine": 5000
+                }
+            },
+            "Champadanga Road": {
+                "entering_a_no_entry_zone": {
+                    "description": "Entering a 'No Entry' zone",
+                    "fine": 2000
+                }
+            }
+        }
+    },
+    "Howrah": {
+        "Howrah (Sadar)": {
+            "G.T. Road (North & South)": {
+                "oneway_during_peak_hours": {
+                    "description": "One-Way during peak hours",
+                    "fine": 500
+                }
+            },
+            "Foreshore Road": {
+                "no_entry_for_trucks_8am10pm": {
+                    "description": "No Entry for trucks (8AM-10PM)",
+                    "fine": 2000
+                }
+            }
+        },
+        "Shibpur": {
+            "Kona Expressway": {
+                "minimum_speed__no_stopping": {
+                    "description": "Minimum Speed & No Stopping",
+                    "fine": 1000
+                }
+            }
+        },
+        "Uluberia": {
+            "NH-16 (Mumbai Road)": {
+                "speed_limit_80_kmh": {
+                    "description": "Speed Limit (80 km/h)",
+                    "fine": {
+                        "min": 1000,
+                        "max": 4000
+                    }
+                }
+            }
+        },
+        "Bally": {
+            "Belgharia Expressway": {
+                "lane_discipline": {
+                    "description": "Lane Discipline",
+                    "fine": {
+                        "min": 500,
+                        "max": 1000
+                    }
+                }
+            }
+        },
+        "Liluah": {
+            "Don Bosco Road": {
+                "silence_zone_no_honking": {
+                    "description": "Silence Zone (No Honking)",
+                    "fine": 1000
+                }
+            }
+        },
+        "Domjur": {
+            "Howrah-Amta Road": {
+                "mandatory_helmet__seatbelt": {
+                    "description": "Mandatory Helmet / Seatbelt",
+                    "fine": 1000
+                }
+            }
+        },
+        "Sankrail": {
+            "Andul Road": {
+                "valid_puc__insurance": {
+                    "description": "Valid PUC & Insurance",
+                    "fine": 2000
+                }
+            }
+        },
+        "Bagnan": {
+            "O.T. Road": {
+                "valid_driving_license": {
+                    "description": "Valid Driving License",
+                    "fine": 5000
+                }
+            }
+        },
+        "Panchla": {
+            "Bombay Road (NH-16)": {
+                "load_limit_compliance": {
+                    "description": "Load Limit Compliance",
+                    "fine": {
+                        "min": 2000,
+                        "max": 1000
+                    }
+                }
+            }
+        }
+    },
+    "Kolkata": {
+        "Central Kolkata": {
+            "Park Street": {
+                "no_parking_zone": {
+                    "description": "No Parking Zone",
+                    "fine": 500
+                }
+            },
+            "Chowringhee Road": {
+                "overspeeding": {
+                    "description": "Overspeeding",
+                    "fine": {
+                        "min": 1000,
+                        "max": 2000
+                    }
+                }
+            }
+        },
+        "South Kolkata": {
+            "Rashbehari Avenue": {
+                "signal_violation": {
+                    "description": "Signal Violation",
+                    "fine": {
+                        "min": 500,
+                        "max": 1500
+                    }
+                }
+            },
+            "Gariahat Road": {
+                "illegal_parking": {
+                    "description": "Illegal Parking",
+                    "fine": 500
+                }
+            }
+        },
+        "North Kolkata": {
+            "Chittaranjan Avenue": {
+                "driving_without_seat_belt": {
+                    "description": "Driving without Seat Belt",
+                    "fine": 1000
+                }
+            },
+            "Bidhan Sarani": {
+                "driving_without_helmet": {
+                    "description": "Driving without Helmet",
+                    "fine": 1000
+                }
+            }
+        },
+        "Salt Lake": {
+            "First Avenue": {
+                "using_mobile_phone_while_driving": {
+                    "description": "Using Mobile Phone while Driving",
+                    "fine": 5000
+                }
+            },
+            "Broadway Road": {
+                "dangerousrash_driving": {
+                    "description": "Dangerous/Rash Driving",
+                    "fine": 5000
+                }
+            }
+        },
+        "New Town": {
+            "Major Arterial Road": {
+                "drunk_driving": {
+                    "description": "Drunk Driving",
+                    "fine": 10000
+                }
+            }
+        },
+        "Behala": {
+            "Diamond Harbour Road": {
+                "driving_without_valid_licence": {
+                    "description": "Driving without valid Licence",
+                    "fine": 5000
+                }
+            }
+        },
+        "Alipore": {
+            "Belvedere Road": {
+                "no_horn_zone_violation": {
+                    "description": "No Horn Zone Violation",
+                    "fine": 1000
+                }
+            }
+        },
+        "Tollygunge": {
+            "Deshapran Sasmal Road": {
+                "driving_without_puc_certificate": {
+                    "description": "Driving without PUC Certificate",
+                    "fine": 2000
+                }
+            }
+        },
+        "Kasba": {
+            "Rajdanga Main Road": {
+                "violation_of_oneway_rule": {
+                    "description": "Violation of One-Way Rule",
+                    "fine": {
+                        "min": 500,
+                        "max": 2000
+                    }
+                }
+            }
+        },
+        "Ballygunge": {
+            "Ballygunge Circular Road": {
+                "triple_riding_on_twowheeler": {
+                    "description": "Triple Riding on Two-wheeler",
+                    "fine": 1000
+                }
+            }
+        },
+        "Jadavpur": {
+            "Raja S.C. Mullick Road": {
+                "obstructing_traffic": {
+                    "description": "Obstructing Traffic",
+                    "fine": 500
+                }
+            }
+        }
+    },
+    "North 24 Parganas": {
+        "Barasat": {
+            "Jessore Road (NH 12)": {
+                "overspeeding": {
+                    "description": "Overspeeding",
+                    "fine": {
+                        "min": 1000,
+                        "max": 2000
+                    }
+                }
+            },
+            "Taki Road": {
+                "driving_without_helmet": {
+                    "description": "Driving without Helmet",
+                    "fine": 1000
+                }
+            }
+        },
+        "Bidhannagar": {
+            "VIP Road": {
+                "drunk_driving": {
+                    "description": "Drunk Driving",
+                    "fine": 10000
+                }
+            },
+            "Major Arterial Road": {
+                "driving_without_seat_belt": {
+                    "description": "Driving without Seat Belt",
+                    "fine": 1000
+                }
+            }
+        },
+        "Barrackpore": {
+            "B.T. Road": {
+                "overloading_goods_vehicles": {
+                    "description": "Overloading (Goods Vehicles)",
+                    "fine": {
+                        "min": 20000,
+                        "max": 2000
+                    }
+                }
+            },
+            "S.N. Banerjee Road": {
+                "violation_of_traffic_signals": {
+                    "description": "Violation of Traffic Signals",
+                    "fine": {
+                        "min": 500,
+                        "max": 1500
+                    }
+                }
+            }
+        },
+        "Kanchrapara": {
+            "Workshop Road": {
+                "illegal_parking": {
+                    "description": "Illegal Parking",
+                    "fine": 500
+                }
+            },
+            "Gandhi Mor": {
+                "dangerousrash_driving": {
+                    "description": "Dangerous/Rash Driving",
+                    "fine": 5000
+                }
+            }
+        },
+        "Madhyamgram": {
+            "Sodepur Road": {
+                "using_mobile_phone_while_driving": {
+                    "description": "Using Mobile Phone while Driving",
+                    "fine": 5000
+                }
+            }
+        },
+        "Naihati": {
+            "Rishi Bankim Sarani": {
+                "driving_without_valid_licence": {
+                    "description": "Driving without valid Licence",
+                    "fine": 5000
+                }
+            }
+        },
+        "Halisahar": {
+            "Dakshin Khasbati Road": {
+                "riding_without_helmet": {
+                    "description": "Riding without Helmet",
+                    "fine": 1000
+                }
+            }
+        },
+        "Basirhat": {
+            "Itinda Road": {
+                "driving_without_puc_certificate": {
+                    "description": "Driving without PUC Certificate",
+                    "fine": 2000
+                }
+            }
+        },
+        "Bongaon": {
+            "Chakdah Road": {
+                "driving_without_insurance": {
+                    "description": "Driving without Insurance",
+                    "fine": {
+                        "min": 2000,
+                        "max": 4000
+                    }
+                }
+            }
+        }
+    },
+    "South 24 Parganas": {
+        "Baruipur": {
+            "Baruipur-Amatala Road": {
+                "no_overtaking_in_market_area": {
+                    "description": "No Overtaking in Market Area",
+                    "fine": {
+                        "min": 500,
+                        "max": 1000
+                    }
+                }
+            },
+            "Kulpi Road": {
+                "speed_limit_40_kmh": {
+                    "description": "Speed Limit 40 km/h",
+                    "fine": 1000
+                }
+            }
+        },
+        "Sonarpur": {
+            "Station Road": {
+                "no_parking_zone": {
+                    "description": "No Parking Zone",
+                    "fine": 500
+                }
+            },
+            "EM Bypass Extension": {
+                "helmet_mandatory": {
+                    "description": "Helmet Mandatory",
+                    "fine": 1000
+                }
+            }
+        },
+        "Diamond Harbour": {
+            "NH 117 (Jessore Road/Diamond Harbour Rd)": {
+                "lane_discipline": {
+                    "description": "Lane Discipline",
+                    "fine": {
+                        "min": 500,
+                        "max": 2000
+                    }
+                }
+            }
+        },
+        "Canning": {
+            "Canning-Baruipur Road": {
+                "valid_permit_required": {
+                    "description": "Valid Permit Required",
+                    "fine": {
+                        "min": 2000,
+                        "max": 5000
+                    }
+                }
+            }
+        },
+        "Budge Budge": {
+            "Budge Budge Trunk Road": {
+                "entry_restricted_timed": {
+                    "description": "Entry Restricted (Timed)",
+                    "fine": 2000
+                }
+            }
+        },
+        "Maheshtala": {
+            "Jinajira Bazar Road": {
+                "seatbelt_mandatory": {
+                    "description": "Seatbelt Mandatory",
+                    "fine": 1000
+                }
+            }
+        },
+        "Rajpur Sonarpur": {
+            "Netaji Subhash Chandra Bose Road": {
+                "one_way_traffic_certain_hours": {
+                    "description": "One Way Traffic (Certain Hours)",
+                    "fine": 500
+                }
+            }
+        },
+        "Garia": {
+            "Raja SC Mullick Road": {
+                "no_signal_jumping": {
+                    "description": "No Signal Jumping",
+                    "fine": {
+                        "min": 500,
+                        "max": 1000
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+flask
+pymongo
+python-dotenv
+flask-cors
+dnspython
+reportlab
+geopy
+PyJWT
+uvicorn
+fastapi
+pydantic
+groq

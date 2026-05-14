@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Receipt</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div style="padding: 20px;">
+    <h2>Fine Receipt</h2>
+
+    <p><b>Vehicle Number:</b> <span id="vehicleNumber"></span></p>
+    <p><b>Vehicle Type:</b> <span id="vehicleType"></span></p>
+    <p><b>Violation:</b> <span id="violation"></span></p>
+    <p><b>Fine:</b> ₹<span id="fine"></span></p>
+    <p><b>Repeated:</b> <span id="repeated"></span></p>
+
+    <p id="errormsg" style="color:red;"></p>
+
+    <button id="downloadBtn">Download PDF</button>
+    <button onclick="window.location.href='mainpage.html'">Back</button>
+</div>
+
+<script src="../js/api.js"></script>
+<script src="../js/receipt.js"></script>
+</body>
+</html>
