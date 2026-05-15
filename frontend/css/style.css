@@ -1,0 +1,165 @@
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    font: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+
+    background: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("main_image.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+
+#ADMIN {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+
+    padding: 8px 14px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5);
+    border: 2px solid black;
+
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+#ADMIN:hover {
+    transform: scale(1.05);
+    color: blue;
+}
+
+#ADMIN:active {
+    transform: scale(0.95);
+    color: yellow;
+    background: aqua;
+}
+
+
+#LOGIN {
+    width: 90%;
+    max-width: 600px;
+
+    padding: 20px;
+    margin-bottom: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(12px);
+
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.4);
+
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Courier New', Courier, monospace;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+#User {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    flex: 1 1 250px;
+    max-width: 350px;
+
+    padding: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.6rem;
+    border-radius: 12px;
+
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box:active {
+    transform: scale(0.95);
+}
+
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background:
+            linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            url("main_image_mbile.jpeg");
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    #LOGIN {
+        font-size: 1.4rem;
+        padding: 15px;
+        margin-bottom: 40px;
+    }
+
+    .box {
+        font-size: 1.3rem;
+        padding: 18px;
+    }
+
+    #User {
+        gap: 20px;
+    }
+
+    #ADMIN {
+        top: 10px;
+        right: 10px;
+        font-size: 0.8rem;
+    }
+}

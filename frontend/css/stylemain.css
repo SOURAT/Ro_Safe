@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("main_pagebg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a1f44;
+    padding: 12px 20px;
+    color: white;
+}
+
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li {
+    padding: 8px 12px;
+    border-right: 2px solid white;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+
+.menu-btn {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 15px;
+    text-decoration: underline 2px steelblue;
+    padding-bottom: 25px;
+}
+.content h2 {
+    color: red;
+    
+}
+.banner {
+    width: 100%;
+    overflow: hidden;
+    background: rgba(10, 31, 68, 0.95);
+    padding: 10px 0;
+    border-top: 1px solid #1c3d7a;
+    border-bottom: 1px solid #1c3d7a;
+}
+
+.banner-track {
+    display: flex;
+    width: max-content;
+    animation: scrollBanner 15s linear infinite;
+}
+
+.banner-track span {
+    margin: 0 40px;
+    font-size: 16px;
+    color: #ffcc00;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+
+@keyframes scrollBanner {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.card {
+    background-color: rgba(70, 132, 180, 0.15);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 45px;
+        right: 10px;
+        background-color: #0a1f44;
+        width: 220px;
+        border-radius: 6px;
+        padding: 10px;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        border-right: none;
+        border-bottom: 1px solid white;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+    body {
+        background-image: url("main_mobile_bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+    }
+    .content {
+        margin-top: 30px;
+        text-align: center;
+        text-wrap: wrap;
+        text-decoration: underline 2px steelblue;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .content h2 {
+        font-size: 24px;
+    }
+    .banner-track span {
+        font-size: 14px;
+        margin: 0 25px;
+    }
+
+    .banner {
+        padding: 8px 0;
+    }
+    .card {
+    background-color: rgba(70, 132, 180, 0.15);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 15px auto;
+    width: 90%;
+}
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15px;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url("main_image.jpeg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.loginbox {
+    width: 100%;
+    max-width: 400px;
+    min-height: 420px;
+    background: rgba(255,255,255,0.69);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+.inputbox {
+    position: relative;
+    width: 100%;
+    margin: 18px 0;
+}
+
+.inputbox label {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-size: 0.85em;
+    color: black;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 42px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 1em;
+    padding-left: 5px;
+}
+
+#remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#remember a {
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    height: 42px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.SignUp {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 480px) {
+     body {
+        background:
+            linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            url("main_image_mbile.jpeg");
+
+        background-size: cover;
+        background-position: center;
+    }
+    .loginbox {
+        border-radius: 15px;
+        padding: 18px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .inputbox input {
+        height: 40px;
+        font-size: 0.95rem;
+    }
+
+    button {
+        height: 40px;
+        font-size: 0.95rem;
+    }
+
+    .SignUp {
+        font-size: 0.85rem;
+    }
+}
