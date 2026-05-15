@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 import os
 
-load_dotenv(os.path.join(os.path.dirname(__file__), "backend", ".env"))  # ← add this
+load_dotenv(os.path.join(os.path.dirname(__file__), "backend", ".env"))  
 
 from backend.routes.chatbot_routes import router as chatbot_router
 
