@@ -1,5 +1,3 @@
-#app.py
-
 from flask import Flask
 from flask_cors import CORS
 from dotenv import load_dotenv
@@ -14,8 +12,9 @@ from routes.auth_routes import auth_bp
 from routes.history_routes import history_bp
 
 app = Flask(__name__)
-CORS(app)
 
+
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 app.register_blueprint(location_bp, url_prefix="/location")
 app.register_blueprint(rules_bp, url_prefix="/rules")
@@ -26,6 +25,6 @@ app.register_blueprint(history_bp, url_prefix="/history")
 @app.route('/')
 def health_check():
     return {"status": "Drive Legal API is running"}, 200
-    
+
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,5 +1,3 @@
-#auth_routes.py
-
 from flask import Blueprint, request, jsonify
 from services.auth_service import authenticate_admin, authenticate_user, register_user
 from services.jwt_service import generate_token
@@ -28,7 +26,6 @@ def admin_login():
     })
 
 
-
 @auth_bp.route("/user-login", methods=["POST"])
 def user_login():
     data = request.get_json() or {}
@@ -53,19 +50,19 @@ def user_login():
     })
 
 
-
 @auth_bp.route("/signup", methods=["POST"])
 def signup():
     data = request.get_json() or {}
 
-    name = data.get("name")
-    email = data.get("email")
-    password = data.get("password")
+    name      = data.get("name")
+    email     = data.get("email")
+    carnumber = data.get("carnumber")  # ✅ ADDED
+    password  = data.get("password")
 
-    if not name or not email or not password:
+    if not name or not email or not carnumber or not password:  # ✅ ADDED carnumber check
         return jsonify({"error": "Missing fields"}), 400
 
-    result = register_user(name, email, password)
+    result = register_user(name, email, carnumber, password)  # ✅ ADDED carnumber
 
     if "error" in result:
         return jsonify(result), 409

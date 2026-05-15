@@ -17,7 +17,7 @@ from groq import Groq, AuthenticationError, RateLimitError, APIStatusError, APIC
 _client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 # Best free model on Groq: fast and capable
-MODEL      = "llama3-70b-8192"
+MODEL      = "llama-3.3-70b-versatile"
 MAX_TOKENS = 1024
 
 # ── System prompt ─────────────────────────────────────────────────────────────
