@@ -20,30 +20,83 @@
     </ul>
 </nav>
 
-<div class="chat-container">
-    <div class="chat-header">
-        <h2>🤖 DriveBot</h2>
-        <p>Ask me anything about traffic rules and violations!</p>
-    </div>
+<div class="chat-wrapper">
 
-    <div class="chat-messages" id="chatMessages">
-        
-        <div class="message bot-message">
-            <p>Hi! I'm DriveBot 👋 Ask me about traffic rules, fines, or road safety!</p>
+    
+    <div class="chat-sidebar">
+        <div class="sidebar-title">⚙ DRIVEBOT</div>
+        <div class="sidebar-subtitle">AI Traffic Assistant</div>
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-item active">💬 New Session</div>
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-section">QUICK TOPICS</div>
+        <div class="sidebar-item" onclick="quickAsk('What are the speed limits in India?')">🚗 Speed Limits</div>
+        <div class="sidebar-item" onclick="quickAsk('What are the fines for drunk driving?')">🍺 Drunk Driving</div>
+        <div class="sidebar-item" onclick="quickAsk('What documents are required while driving?')">📄 Documents</div>
+        <div class="sidebar-item" onclick="quickAsk('What are helmet rules for two wheelers?')">⛑ Helmet Rules</div>
+        <div class="sidebar-item" onclick="quickAsk('What are the rules for using mobile while driving?')">📱 Mobile Usage</div>
+        <div class="sidebar-item" onclick="quickAsk('What is the fine for jumping a red light?')">🚦 Red Light Fine</div>
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-status">
+            <span class="status-dot"></span> Connected to Groq AI
         </div>
     </div>
 
-    <div class="chat-input-area">
-        <p id="errormsg" style="color:red; font-size:12px;"></p>
-        <div class="input-row">
-            <input 
-                type="text" 
-                id="userInput" 
-                placeholder="Ask about traffic rules..." 
-                autocomplete="off"
-            >
-            <button id="sendBtn">Send</button>
+    
+    <div class="chat-container">
+
+        <div class="chat-header">
+            <div class="chat-header-left">
+                <div class="bot-avatar">🤖</div>
+                <div>
+                    <div class="chat-header-title">DriveBot</div>
+                    <div class="chat-header-sub">Powered by LLaMA 3.3 · Indian Traffic Law Expert</div>
+                </div>
+            </div>
+            <div class="chat-header-right">
+                <div class="header-badge">MV Act 2019</div>
+                <div class="header-badge">India</div>
+            </div>
         </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message-group">
+                <div class="message-avatar">🤖</div>
+                <div class="message bot-message">
+                    <p>Hi! I'm <strong>DriveBot</strong> 👋</p>
+                    <p>I'm your AI-powered Indian traffic law assistant. Ask me about:</p>
+                    <ul>
+                        <li>Traffic rules & regulations</li>
+                        <li>Fine amounts & legal sections</li>
+                        <li>Road safety tips</li>
+                        <li>Driving documents required</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <p id="errormsg"></p>
+            <div class="input-row">
+                <div class="input-wrapper">
+                    <input
+                        type="text"
+                        id="userInput"
+                        placeholder="Ask about traffic rules, fines, road safety..."
+                        autocomplete="off"
+                    >
+                    <span class="input-hint">Press Enter to send</span>
+                </div>
+                <button id="sendBtn">
+                    <span>SEND</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
     </div>
 </div>
 

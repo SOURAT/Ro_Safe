@@ -1,6 +1,3 @@
-const BASE_URL = "http://127.0.0.1:5000";
-
-
 const token = localStorage.getItem("token");
 const role  = localStorage.getItem("role");
 
@@ -9,19 +6,16 @@ if (!token || role !== "user") {
     window.location.href = "index.html";
 }
 
-
 function toggleMenu() {
     const navLinks = document.getElementById("nav-links");
     navLinks.classList.toggle("active");
 }
-
 
 document.getElementById("logoutBtn").addEventListener("click", function(e) {
     e.preventDefault();
     localStorage.clear();
     window.location.href = "index.html";
 });
-
 
 window.addEventListener("load", function() {
     if (navigator.geolocation) {
@@ -43,12 +37,10 @@ window.addEventListener("load", function() {
                     const result = await response.json();
 
                     if (response.ok) {
-
-                        localStorage.setItem("state",   result.state   || "");
-                        localStorage.setItem("city",    result.city    || "");
-                        localStorage.setItem("district",result.district|| "");
-                        localStorage.setItem("country", result.country || "");
-
+                        localStorage.setItem("state",    result.state    || "");
+                        localStorage.setItem("city",     result.city     || "");
+                        localStorage.setItem("district", result.district || "");
+                        localStorage.setItem("country",  result.country  || "");
 
                         document.getElementById("locationInfo").textContent
                             = `📍 ${result.city}, ${result.state}, ${result.country}`;

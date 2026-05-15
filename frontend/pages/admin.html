@@ -16,7 +16,6 @@
 
 <div class="container">
 
-    
     <div class="box" id="fine">
         <form id="fineForm">
             <label>Vehicle Type</label>
@@ -31,12 +30,63 @@
             <label>Violation</label>
             <select id="violation" required>
                 <option value="">Select a violation</option>
-                <option value="Speeding">Speeding</option>
-                <option value="Running Red Light">Running Red Light</option>
-                <option value="Drink and Driving">Drink and Driving</option>
-                <option value="Improper Parking">Improper Parking</option>
-                <option value="Traffic Violation">Traffic Violation</option>
-                <option value="Other">Other</option>
+                <option value="overspeeding">Overspeeding</option>
+                <option value="jumping_traffic_signals">Jumping Traffic Signals</option>
+                <option value="drunk_driving">Drunk Driving</option>
+                <option value="no_parking_zone">No Parking Zone</option>
+                <option value="driving_without_helmet">Driving without Helmet</option>
+                <option value="driving_without_seat_belt">Driving without Seat Belt</option>
+                <option value="using_mobile_phone_while_driving">Using Mobile Phone while Driving</option>
+                <option value="driving_without_valid_licence">Driving without valid Licence</option>
+                <option value="driving_without_puc_certificate">Driving without PUC Certificate</option>
+                <option value="driving_without_insurance">Driving without Insurance</option>
+                <option value="dangerousrash_driving">Dangerous/Rash Driving</option>
+                <option value="signal_violation">Signal Violation</option>
+                <option value="triple_riding_on_twowheeler">Triple Riding on Two-wheeler</option>
+                <option value="driving_against_the_flow_of_traffic">Driving against the Flow of Traffic</option>
+                <option value="reckless_driving_endangering_public_safety">Reckless Driving</option>
+                <option value="allowing_a_minor_to_drive_the_vehicle">Allowing a Minor to Drive</option>
+                <option value="carrying_load_beyond_permissible_limit">Carrying Load beyond Permissible Limit</option>
+                <option value="lane_discipline">Lane Discipline</option>
+                <option value="violation_of_oneway_rule">Violation of One-Way Rule</option>
+                <option value="driving_above_the_prescribed_speed_limit">Driving above Prescribed Speed Limit</option>
+                <option value="driving_under_influence_of_alcoholdrugs">Driving under Influence of Alcohol/Drugs</option>
+                <option value="riding_twowheeler_without_protective_headgear">Riding Two-wheeler without Headgear</option>
+                <option value="driving_fourwheeler_without_seat_belt">Driving Four-wheeler without Seat Belt</option>
+                <option value="parking_in_a_restrictednoparking_zone">Parking in Restricted/No-Parking Zone</option>
+                <option value="more_than_two_persons_on_a_twowheeler">More than Two Persons on Two-wheeler</option>
+                <option value="driving_without_valid_vehicle_insurance">Driving without Valid Vehicle Insurance</option>
+                <option value="driving_without_a_valid_driving_license">Driving without Valid Driving License</option>
+                <option value="driving_without_valid_pollution_under_control_certificate">Driving without Valid PUC Certificate</option>
+                <option value="using_nonstandard_or_illegal_number_plates">Using Non-standard or Illegal Number Plates</option>
+                <option value="causing_obstruction_to_free_flow_of_traffic">Causing Obstruction to Traffic</option>
+                <option value="using_high_beam_in_restricted_city_areas">Using High Beam in Restricted Areas</option>
+                <option value="unauthorized_structural_modification_of_vehicle">Unauthorized Structural Modification</option>
+                <option value="entering_a_no_entry_zone">Entering a No Entry Zone</option>
+                <option value="oneway_during_peak_hours">One-Way during Peak Hours</option>
+                <option value="no_entry_for_trucks_8am10pm">No Entry for Trucks (8AM-10PM)</option>
+                <option value="minimum_speed__no_stopping">Minimum Speed / No Stopping</option>
+                <option value="speed_limit_80_kmh">Speed Limit (80 km/h)</option>
+                <option value="silence_zone_no_honking">Silence Zone - No Honking</option>
+                <option value="mandatory_helmet__seatbelt">Mandatory Helmet / Seatbelt</option>
+                <option value="valid_puc__insurance">Valid PUC & Insurance</option>
+                <option value="valid_driving_license">Valid Driving License</option>
+                <option value="load_limit_compliance">Load Limit Compliance</option>
+                <option value="illegal_parking">Illegal Parking</option>
+                <option value="no_horn_zone_violation">No Horn Zone Violation</option>
+                <option value="violation_of_traffic_signals">Violation of Traffic Signals</option>
+                <option value="overloading_goods_vehicles">Overloading (Goods Vehicles)</option>
+                <option value="riding_without_helmet">Riding without Helmet</option>
+                <option value="no_overtaking_in_market_area">No Overtaking in Market Area</option>
+                <option value="speed_limit_40_kmh">Speed Limit (40 km/h)</option>
+                <option value="helmet_mandatory">Helmet Mandatory</option>
+                <option value="valid_permit_required">Valid Permit Required</option>
+                <option value="entry_restricted_timed">Entry Restricted (Timed)</option>
+                <option value="seatbelt_mandatory">Seatbelt Mandatory</option>
+                <option value="one_way_traffic_certain_hours">One Way Traffic (Certain Hours)</option>
+                <option value="no_signal_jumping">No Signal Jumping</option>
+                <option value="obstructing_traffic">Obstructing Traffic</option>
+                <option value="no_parking_zone">No Parking Zone</option>
             </select>
 
             <label>State</label>
@@ -55,7 +105,6 @@
             <button type="submit">Submit</button>
         </form>
 
-        
         <div id="fineResult" style="display:none;">
             <h3>Fine Calculated</h3>
             <p id="resultVehicle"></p>
@@ -65,7 +114,6 @@
             <button id="downloadBtn">Download Receipt</button>
         </div>
     </div>
-
 
     <div class="box" id="history">
         <label>Violation History:</label>

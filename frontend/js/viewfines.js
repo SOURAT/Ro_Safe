@@ -1,6 +1,3 @@
-const BASE_URL = "http://127.0.0.1:5000";
-
-
 const token = localStorage.getItem("token");
 const role  = localStorage.getItem("role");
 
@@ -49,6 +46,7 @@ window.addEventListener("load", async function() {
     }
 });
 
+
 function displayFines(records) {
     const finesDisplay = document.getElementById("finesDisplay");
     finesDisplay.innerHTML = "";
@@ -61,7 +59,11 @@ function displayFines(records) {
         return;
     }
 
-    records.forEach(record => {
+    records.forEach((record, index) => {
+        
+        window._fineRecords = window._fineRecords || [];
+        window._fineRecords[index] = record;
+
         const card = document.createElement("div");
         card.className = "fine-card";
 
@@ -76,17 +78,25 @@ function displayFines(records) {
             <p><b>Fine:</b> ₹${record.fine}</p>
             <p><b>Repeated:</b> ${record.repeated ? "Yes" : "No"}</p>
             <p><b>Date:</b> ${new Date(record.date).toLocaleDateString()}</p>
-            <p><b>Status:</b> 
+            <p><b>Status:</b>
                 <span class="${statusClass}">
                     ${record.status ? record.status.toUpperCase() : "UNPAID"}
                 </span>
             </p>
-            <button class="download-btn" 
-                onclick="downloadReceipt(${JSON.stringify(record)})">
+            <button class="download-btn" data-index="${index}">
                 Download Receipt
             </button>
         `;
         finesDisplay.appendChild(card);
+    });
+
+   
+    document.getElementById("finesDisplay").addEventListener("click", function(e) {
+        if (e.target.classList.contains("download-btn")) {
+            const index  = e.target.getAttribute("data-index");
+            const record = window._fineRecords[index];
+            downloadReceipt(record);
+        }
     });
 }
 

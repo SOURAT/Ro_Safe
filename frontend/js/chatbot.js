@@ -111,10 +111,31 @@ async function sendMessage() {
 
 function appendMessage(sender, text) {
     const chatMessages = document.getElementById("chatMessages");
-    const div = document.createElement("div");
-    div.className = `message ${sender === "user" ? "user-message" : "bot-message"}`;
-    div.innerHTML = `<p>${text.replace(/\n/g, "<br>")}</p>`;
-    chatMessages.appendChild(div);
+    const isBot = sender === "bot";
+    const time  = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+    const group = document.createElement("div");
+    group.className = "message-group";
+    group.style.justifyContent = isBot ? "flex-start" : "flex-end";
+
+    group.innerHTML = isBot ? `
+        <div class="message-avatar">🤖</div>
+        <div>
+            <div class="message bot-message">
+                <p>${text.replace(/\n/g, "<br>")}</p>
+            </div>
+            <div class="msg-time">${time}</div>
+        </div>
+    ` : `
+        <div>
+            <div class="message user-message">
+                <p>${text.replace(/\n/g, "<br>")}</p>
+            </div>
+            <div class="msg-time" style="text-align:right">${time}</div>
+        </div>
+    `;
+
+    chatMessages.appendChild(group);
     chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
@@ -134,4 +155,9 @@ function showTyping() {
 function removeTyping(id) {
     const el = document.getElementById(id);
     if (el) el.remove();
+}
+
+function quickAsk(question) {
+    document.getElementById("userInput").value = question;
+    sendMessage();
 }
