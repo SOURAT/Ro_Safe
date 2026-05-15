@@ -97,8 +97,9 @@ function displayRules(rules) {
         card.innerHTML = `
             <h3>${violation.replace(/_/g, " ")}</h3>
             <p><b>Description:</b> ${rule.description || "-"}</p>
-            <p><b>Fine:</b> ${fineText}</p>
-            <p><b>Section:</b> ${rule.section || "-"}</p>
+            <br>
+            <span class="fine-badge">₹ ${fineText}</span>
+            <span class="section-badge">${rule.section || "-"}</span>
         `;
         rulesDisplay.appendChild(card);
     });
