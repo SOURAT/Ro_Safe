@@ -4,7 +4,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 import os
 
-load_dotenv(os.path.join(os.path.dirname(__file__), "backend", ".env"))  
+
+env_path = os.path.join(os.path.dirname(__file__), "backend", ".env")
+load_dotenv(dotenv_path=env_path)
+
+
+print("GROQ KEY:", os.environ.get("GROQ_API_KEY"))
 
 from backend.routes.chatbot_routes import router as chatbot_router
 
