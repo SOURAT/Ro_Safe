@@ -1,6 +1,11 @@
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv
+import os
+
+load_dotenv(os.path.join(os.path.dirname(__file__), "backend", ".env"))  # ← add this
+
 from backend.routes.chatbot_routes import router as chatbot_router
 
 app = FastAPI(title="DriveBot API")
