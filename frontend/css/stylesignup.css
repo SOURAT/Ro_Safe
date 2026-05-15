@@ -10,7 +10,7 @@
 body {
     background:
         linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-        url("main_image.jpeg");
+        url("../assets/main_image.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +85,7 @@ button:active {
     body {
         background:
             linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-            url("main_image_mbile.jpeg");
+            url("../assets/main_image_mbile.jpeg");
         background-size: cover;
         background-position: center;
     }

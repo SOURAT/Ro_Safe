@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: url("main_pagebg.png");
+    background-image: url("../assets/main_pagebg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@ nav ul li a:hover {
         border-bottom: none;
     }
     body {
-        background-image: url("main_mobile_bg.png");
+        background-image: url("../assets/main_mobile_bg.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
