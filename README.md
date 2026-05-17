@@ -10,12 +10,12 @@ DriveLegal is an AI-powered platform that provides location-specific traffic law
 
 | Name | Role |
 |---|---|
-| Rahul Das | Backend Developer |
+| Rahul Das | Frontend Developer |
 | Ayoshree Dutta | Frontend Developer |
 | Nabarka Mazumdar | Data & Rules Engine |
-| Subhadip Bhunia | AI & Chatbot |
-| Riddhismita Nath | UI/UX Designer |
-| Souradeep Tarafdar | Frontend Developer |
+| Subhadip Bhunia | UI Designer |
+| Riddhismita Nath | Backend Developer |
+| Souradeep Tarafdar | Backend Developer |
 
 ---
 
@@ -96,7 +96,6 @@ Drive_Legal/
 │ ├── delhi.json
 │ └── tamil_nadu.json
 ├── run_chatbot.py
-├── run.sh
 └── README.md
 ```
 
@@ -128,7 +127,7 @@ Drive_Legal/
 
 **Step 1 — Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/drivelegal.git
+git clone https://github.com/SOURAT/Ro_Safe.git
 cd Drive_Legal
 ```
 
