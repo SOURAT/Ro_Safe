@@ -10,12 +10,12 @@ DriveLegal is an AI-powered platform that provides location-specific traffic law
 
 | Name | Role |
 |---|---|
-| Rahul Das | Backend Developer |
+| Rahul Das | Frontend Developer |
 | Ayoshree Dutta | Frontend Developer |
 | Nabarka Mazumdar | Data & Rules Engine |
-| Subhadip Bhunia | AI & Chatbot |
-| Riddhismita Nath | UI/UX Designer |
-| Souradeep Tarafdar | Frontend Developer |
+| Subhadip Bhunia | UI designer |
+| Riddhismita Nath | Backend Developer |
+| Souradeep Tarafdar | Backend Developer |
 
 ---
 
