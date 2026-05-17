@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Emergency Contacts</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      background: white;
+      border-radius: 25px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .header {
+      background: #dc2626;
+      padding: 25px;
+      text-align: center;
+      color: white;
+      position: sticky;
+      top: 0;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .contacts {
+      padding: 15px;
+    }
+
+    .card {
+      background: #f8fafc;
+      padding: 18px;
+      border-radius: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .icon {
+      font-size: 24px;
+      color: #dc2626;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .desc {
+      font-size: 13px;
+      color: gray;
+    }
+
+    .call {
+      background: #dc2626;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      min-width: 70px;
+      text-align: center;
+    }
+
+    .call:hover {
+      background: #b91c1c;
+    }
+
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 24px;
+      }
+
+      .card {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+      }
+
+      .call {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+      }
+
+      .name {
+        font-size: 20px;
+      }
+
+      .icon {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        Emergency Help
+      </h1>
+
+      <p>Tap to call instantly</p>
+    </div>
+    <div class="contacts">
+      <div class="card">
+        <div class="left">
+          <i class="fa-solid fa-shield-halved icon"></i>
+
+          <div>
+            <div class="name">Police</div>
+            <div class="desc">Immediate assistance</div>
+          </div>
+        </div>
+
+        <a href="tel:100" class="call"> Call </a>
+      </div>
+
+      <div class="card">
+        <div class="left">
+          <i class="fa-solid fa-fire icon"></i>
+
+          <div>
+            <div class="name">Fire Department</div>
+            <div class="desc">Fire rescue services</div>
+          </div>
+        </div>
+
+        <a href="tel:101" class="call"> Call </a>
+      </div>
+
+      <div class="card">
+        <div class="left">
+          <i class="fa-solid fa-ambulance icon"></i>
+
+          <div>
+            <div class="name">Ambulance</div>
+            <div class="desc">Medical emergency</div>
+          </div>
+        </div>
+
+        <a href="tel:108" class="call"> Call </a>
+      </div>
+
+      <div class="card">
+        <div class="left">
+          <i class="fa-solid fa-phone icon"></i>
+
+          <div>
+            <div class="name">National Emergency</div>
+            <div class="desc">All emergencies</div>
+          </div>
+        </div>
+
+        <a href="tel:112" class="call"> Call </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
