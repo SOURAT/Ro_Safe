@@ -96,7 +96,6 @@ Drive_Legal/
 │ ├── delhi.json
 │ └── tamil_nadu.json
 ├── run_chatbot.py
-├── run.sh
 └── README.md
 ```
 
@@ -128,7 +127,7 @@ Drive_Legal/
 
 **Step 1 — Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/drivelegal.git
+git clone https://github.com/SOURAT/Ro_Safe.git
 cd Drive_Legal
 ```
 
@@ -159,6 +158,9 @@ JWT_SECRET=your_secret_key_here
 JWT_EXPIRE_MIN=60
 FLASK_ENV=development
 GROQ_API_KEY=gsk_your_groq_api_key
+
+Get your free GROQ API KEY here : https://console.groq.com
+
 ```
 
 **Step 5 — Seed admin users:**
