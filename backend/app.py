@@ -14,7 +14,11 @@ from routes.history_routes import history_bp
 app = Flask(__name__)
 
 
-CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
+CORS(app, resources={r"/*": {"origins": [
+    "http://127.0.0.1:5500",
+    "http://localhost:5500",
+    "https://drive-legal-road-safety1.vercel.app"
+]}}, supports_credentials=True)
 
 app.register_blueprint(location_bp, url_prefix="/location")
 app.register_blueprint(rules_bp, url_prefix="/rules")
