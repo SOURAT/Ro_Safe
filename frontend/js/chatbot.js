@@ -1,5 +1,6 @@
-const FLASK_URL  = "http://127.0.0.1:5000";
-const GROQ_URL   = "http://127.0.0.1:8000";
+const FLASK_URL = "https://road-safety-legal.onrender.com";
+const GROQ_URL  = "https://drive-legal.onrender.com";
+
 
 
 const token = localStorage.getItem("token");
