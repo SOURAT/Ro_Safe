@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:5000";
+const BASE_URL = "https://drive-legal.onrender.com/";
 
 document.getElementById("adminLoginForm").addEventListener("submit", async function(e) {
     e.preventDefault();
