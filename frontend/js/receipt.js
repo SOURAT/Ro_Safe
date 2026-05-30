@@ -3,7 +3,7 @@ const role  = localStorage.getItem("role");
 
 if (!token) {
     alert("Please login first!");
-    window.location.href = "index.html";
+    window.location.href = "/index.html";
 }
 
 
