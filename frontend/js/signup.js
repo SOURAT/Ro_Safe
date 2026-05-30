@@ -38,7 +38,7 @@ document.getElementById("signupForm").addEventListener("submit", async function(
 
         if (response.ok) {
             alert("Account created successfully!");
-            window.location.href = "login.html";
+            window.location.href = "/pages/login.html";
         } else {
             errormsg.textContent = result.error || "Signup failed!";
         }
