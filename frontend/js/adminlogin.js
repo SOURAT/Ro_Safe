@@ -28,7 +28,7 @@ document.getElementById("adminLoginForm").addEventListener("submit", async funct
             localStorage.setItem("token", result.token);
             localStorage.setItem("role", "admin");
             localStorage.setItem("adminKey", key);
-            window.location.href = "admin.html";
+            window.location.href = "/pages/admin.html";
         } else {
             errormsg.textContent = result.error || "Login failed!";
         }
