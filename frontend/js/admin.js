@@ -4,7 +4,7 @@ const role  = localStorage.getItem("role");
 
 if (!token || role !== "admin") {
     alert("Access denied! Admins only.");
-    window.location.href = "adminlogin.html";
+    window.location.href = "/pages/adminlogin.html";
 }
 
 
