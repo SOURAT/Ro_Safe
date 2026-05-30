@@ -3,7 +3,7 @@ const role  = localStorage.getItem("role");
 
 if (!token || role !== "user") {
     alert("Please login first!");
-    window.location.href = "index.html";
+    window.location.href = "/index.html";
 }
 
 function toggleMenu() {
@@ -14,7 +14,7 @@ function toggleMenu() {
 document.getElementById("logoutBtn").addEventListener("click", function(e) {
     e.preventDefault();
     localStorage.clear();
-    window.location.href = "index.html";
+    window.location.href = "/index.html";
 });
 
 window.addEventListener("load", function() {
