@@ -1,4 +1,4 @@
-const BASE_URL = "https://road-safety-legal.onrender.com/";
+const BASE_URL = "https://road-safety-legal.onrender.com";
 
 document.getElementById("adminLoginForm").addEventListener("submit", async function(e) {
     e.preventDefault();
