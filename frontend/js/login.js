@@ -28,7 +28,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
             localStorage.setItem("token", result.token);
             localStorage.setItem("role", "user");
             localStorage.setItem("email", email);
-            window.location.href = "mainpage.html";
+            window.location.href = "/pages/mainpage.html";
         } else {
             errormsg.textContent = result.error || "Login failed!";
         }
